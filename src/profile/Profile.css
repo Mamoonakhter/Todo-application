@@ -1,0 +1,24 @@
+* {
+  text-align: center;
+  align-items: center;
+}
+
+.profile {
+    border: 1px solid aqua;
+    border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile_right button{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.profile_right button:hover{
+    opacity: 0.5;
+}
